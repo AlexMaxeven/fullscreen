@@ -275,6 +275,7 @@ body {
 
 .button {
   background: rgba(0, 0, 0, 0.493);
+  max-width: 200px;
   margin-top: 50px;
   color: #fff;
   border: 1px solid #fff;
@@ -327,6 +328,17 @@ body {
   padding: 100px 25px 25px 25px;
   position: relative;
   z-index: 2;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .screen__title {
@@ -339,6 +351,7 @@ body {
 
 .screen__title-big {
   background: rgba(0, 0, 0, 0.493);
+  margin-bottom: auto;
   max-width: 800px;
   padding: 15px;
 }
