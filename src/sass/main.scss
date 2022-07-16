@@ -173,6 +173,7 @@
         }
 
 		&__title {
+            max-width: 800px;
             font-size: 50px;
             color: #fff;
             margin: 0px 0px 30px 0px;
@@ -180,6 +181,7 @@
         }
 
 		&__title-big {
+            max-width: 800px;
             background-color: rgba(0, 0, 0, 0.493);
             padding: 15px;
         }
@@ -209,6 +211,7 @@
             }
         }
         &__text{
+            max-width: 800px;
             font-size: 20px;
             line-height: 130%;
             color: #fff;

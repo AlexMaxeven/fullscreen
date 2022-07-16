@@ -14,7 +14,7 @@ let pageSlider = new Swiper('.page', {
     slidesPerView: 'auto',
 
     //включаем параллакс
-    parallax: 'true',
+    parallax: true,
     //управление клавиатурой
     Keyboard: {
         //вкл-выкл
@@ -26,7 +26,7 @@ let pageSlider = new Swiper('.page', {
         sensitivity:1,
     },
     watchOverflow: true,
-    speed: 800,
+    speed: 1100,
     observed: true,
     observeParents: true,
     observeSlideChildren: true,
@@ -73,7 +73,7 @@ function menuSlider() {
             const menuLink = menuLinks[index];
             menuLink.addEventListener("click", function (e) {
                 menuSliderRemove();
-                pageSlider.slideTo(index, 800);
+                pageSlider.slideTo(index, 1100);
                 menuLink.classList.add('_active');                
                 e.preventDefault();
             });
